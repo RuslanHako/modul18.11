@@ -1,0 +1,154 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: beige;
+    background-color: burlywood;
+}
+.wrapper {}
+
+.header {
+
+    min-height: 100%;
+    padding-top: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    max-width: 1370px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tittle__list {
+    display: flex;
+    column-gap: 50px;
+}
+
+.title__link {
+    text-align: center;
+    color: white;
+}
+
+.tittle__item {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.img__logo {}
+
+.logo {
+    width: 100px;
+}
+
+.main {}
+
+.main__info {
+    display: flex;
+}
+
+.main__img {
+    position: relative;
+    margin-left: 100px;
+    border: 5px solid rgb(163, 163, 144);
+}
+
+.img_wrapper {
+    width: 375px;
+    height: 100%;
+}
+
+.main__text {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    margin-left: 500px;
+
+}
+
+.main__sub {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px rgb(163, 163, 144);
+
+}
+
+
+.main__info__img {
+    width: 250px;
+    height: 250px;
+    transform: rotate(-50deg);
+}
+
+.main__info__img:active {
+
+    transform: scaleX(1.1) scaleY(0.5);
+    transform: rotate(50deg);
+
+}
+
+table {
+    max-width: 500px;
+    display: inline-flex;
+    align-items: flex-end;
+
+}
+
+td:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+.main__info__text {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.info__text {
+    width: 50%;
+}
+
+/* Калькулятор */
+.section__clac {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#num1,
+#num2 {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 10px;
+}
+
+#operator_btns button {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+}
+
+#result {
+    text-align: center;
+    font-size: 36px;
+}
+
+.btn {
+    font-size: 30px;
+    margin: 20px;
+}
